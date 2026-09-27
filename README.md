@@ -7,6 +7,8 @@
 
 A menu-driven Java application for managing university student records and representing connections between campus locations. It demonstrates a linked list, stack, queue, binary search tree (BST), hash table, and adjacency-list graph.
 
+**GitHub repository:** [rimarima01/CIT300-Student-Campus-System](https://github.com/rimarima01/CIT300-Student-Campus-System)
+
 ## 1. Group Members
 
 | Member | Name | Student ID | Assigned responsibility |
@@ -127,10 +129,14 @@ CIT300-Student-Campus-System/
 │   ├── ServiceQueue.java           # student service requests
 │   └── CampusGraph.java            # campus adjacency-list graph, BFS/DFS
 └── tests/
-    └── DataStructureSmokeTest.java # 20 current smoke checks
+    ├── DataStructureSmokeTest.java # 20 smoke checks
+    ├── StudentLinkedListTest.java  # linked-list checks
+    ├── StackQueueTest.java         # stack and queue checks
+    ├── StudentIndexTest.java       # BST and hash-table checks
+    └── CampusGraphTest.java        # campus graph checks
 ```
 
-Member-specific test files can be added to `tests/` as each branch/PR is created, reviewed, and merged. The separate demonstration script is provided outside the project ZIP.
+The five test classes listed above are present on the current `main` branch. The separate demonstration script is provided outside the project ZIP.
 
 ## 6. Requirements and Run Instructions
 
@@ -157,9 +163,7 @@ Double-click `test.bat` or enter:
 .\test.bat
 ```
 
-The script compiles the application and available test sources, always runs `DataStructureSmokeTest`, and runs the four member-specific test classes if present. A `SKIP` message means that test class is not included in that local copy yet. After member test PRs have been merged, rerun the script and confirm every suite passes without skips.
-
-The included `DataStructureSmokeTest.java` currently performs **20 checks**. Report additional test counts only after the relevant test files are added and run successfully.
+The script compiles the application and available test sources, runs `DataStructureSmokeTest`, and then runs the four member test classes. As of the latest `main` checked after PR #8, the five test classes passed **70 checks total** (20 smoke, 12 linked-list, 11 stack/queue, 10 BST/hash, and 17 graph checks). Run `test.bat` again on your Windows computer before submission and report the result it actually prints.
 
 ### Manual test scenarios
 
@@ -178,18 +182,17 @@ After launching with `run.bat`, manually try adding, updating, deleting, searchi
 
 ## 8. GitHub Collaboration Record
 
-The following is the **planned branch-to-component mapping**, not a claim that every branch or PR already exists. Update the branch names and content to match the actual GitHub history after contributions are pushed and merged. Each member should use their own GitHub account and submit a genuine contribution for peer review.
+The following table records the pull-request history checked on the public repository. The status and file presence refer to `main` after PR #8. Confirm each GitHub account-to-student mapping with the group before submission.
 
-| Branch | Member | Planned content / contribution |
-| --- | --- | --- |
-| `main` (initial project upload) | Repository owner — enter the actual member/account | Initial project files, README, and baseline smoke test; update this row to show who actually made the upload and what it included. |
-| `rimasa-linked-list-tests` | MSF.Rimasa (23DA2-0507) | Linked-list edge-case tests and any confirmed linked-list/student validation fixes. |
-| `ahamed-stack-queue-tests` | ANT.Ahamed (23DA2-0514) | Stack/queue tests and any confirmed request/history fixes. |
-| `amhar-bst-hash-tests` | MUM.Amhar (23DA2-0673) | BST/hash tests and any confirmed index fixes. |
-| `azzah-graph-tests` | MIFZ.Azzah (23DA2-1072) | Campus graph/traversal tests and any confirmed graph fixes. |
-| `main` (after review and merge) | All contributing members | Final reviewed project after the genuine member pull requests are merged. |
+| Branch | Member / GitHub author shown | Contribution and PR history | Current status on `main` |
+| --- | --- | --- | --- |
+| `main` | Repository owner `rimarima01` | Initial repository and project integration. | Default branch; contains the integrated project. |
+| `amhar-bst-hash-tests` | MUM.Amhar / `MhdAmhar17`* | [PR #1](https://github.com/rimarima01/CIT300-Student-Campus-System/pull/1) added `tests/StudentIndexTest.java`. Although the PR title says “linked-list edge-case tests,” the file changed was the BST/hash test. | Merged; test file is present. |
+| `ahamed-stack-queue-tests` | ANT.Ahamed / `thaiseer19383`* | [PR #2](https://github.com/rimarima01/CIT300-Student-Campus-System/pull/2) added `StackQueueTest.java`; [PR #3](https://github.com/rimarima01/CIT300-Student-Campus-System/pull/3) reverted it; [PR #4](https://github.com/rimarima01/CIT300-Student-Campus-System/pull/4) restored it. | Restored and present. |
+| `azzah-graph-tests` | MIFZ.Azzah / `MIFZA0920`* | [PR #5](https://github.com/rimarima01/CIT300-Student-Campus-System/pull/5) added `CampusGraphTest.java`; [PR #6](https://github.com/rimarima01/CIT300-Student-Campus-System/pull/6) reverted it; [PR #8](https://github.com/rimarima01/CIT300-Student-Campus-System/pull/8) added the corrected test file. | Corrected test merged and present. |
+| `rimasa-linked-list-tests` | MSF.Rimasa / `rimarima01`* | [PR #7](https://github.com/rimarima01/CIT300-Student-Campus-System/pull/7) added `tests/StudentLinkedListTest.java`. | Merged; test file is present. |
 
-Do not leave proposed branches listed as completed work if they were never created. Add actual pull-request links or commit references only after they exist.
+* Verify that each GitHub account belongs to the named student. A public PR shows the account that submitted it, but does not by itself establish a student's identity.
 
 ## 9. Demonstration Video Run Sheet
 
