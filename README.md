@@ -98,14 +98,6 @@ The test checks linked-list operations, hash lookup/removal, BST ordering/deleti
 
 The detailed member-by-member demonstration script is provided as a separate file, outside the project ZIP.
 
-## Before submitting (from the assignment brief)
 
-- [ ] Confirm member names and IDs above are exact; correct any mismatches.
-- [ ] Confirm and, if needed, edit each contribution statement so it describes that member's **actual individual contribution**.
-- [ ] Merge the members' individually recorded demonstration sections into one video of **less than 15 minutes**; keep all four faces clearly visible in a gallery throughout the final video.
-- [ ] Push the complete project to the group's GitHub repository and include collaboration evidence (commits/branches/pull requests where applicable).
-- [ ] If using Google Drive, upload the complete project and put its folder link in a `.txt` file for LMS upload.
-- [ ] Before submitting, give **Editor** access to `asanka.r@sltc.ac.lk` and `kaushika.w@sltc.ac.lk`, and verify both permissions.
-- [ ] Submit through the designated LMS link on or before **29 September** (the assignment deadline); the brief says late email does not count as submission.
 
 The group is responsible for checking the actual LMS deadline/time and completing the external submission steps. Do not include passwords or private credentials in the repository.
