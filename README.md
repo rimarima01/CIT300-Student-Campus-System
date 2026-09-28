@@ -4,26 +4,29 @@
 **Assessment:** Graded Practical Assignment 1 (Week 10) — 10% of the final module grade
 **Institution:** SLTC Research University
 **Language:** Java console application (JDK 17 or later)
+**Submission deadline:** 29 September 2026
 
 A menu-driven Java application for managing university student records and representing connections between campus locations. It demonstrates a linked list, stack, queue, binary search tree (BST), hash table, and adjacency-list graph.
 
 **GitHub repository:** [rimarima01/CIT300-Student-Campus-System](https://github.com/rimarima01/CIT300-Student-Campus-System)
 
+---
+
 ## 1. Group Members
 
-| Member | Name | Student ID | Assigned responsibility |
-| --- | --- | --- | --- |
-| Member 1 | MSF.Rimasa | 23DA2-0507 | Student model, linked-list storage, and student-record operations |
-| Member 2 | ANT.Ahamed | 23DA2-0514 | Recent-action stack and student-service-request queue |
-| Member 3 | MUM.Amhar | 23DA2-0673 | BST organization and hash-based student-ID search |
-| Member 4 | MIFZ.Azzah | 23DA2-1072 | Campus graph, location/road operations, BFS and DFS |
-| All members | — | — | Integration, testing, debugging, documentation, GitHub collaboration, and demonstration—record only the work each member actually performed. |
+| No. | Name | Student ID | Role | Assigned responsibility |
+| --- | --- | --- | --- | --- |
+| 1 | **MSF.Rimasa** | **23DA2-0507** | **Group Leader** | Student model, linked-list storage, student-record operations, and group coordination |
+| 2 | **ANT.Ahamed** | **23DA2-0514** | Member 2 | Recent-action stack and student-service-request queue |
+| 3 | **MUM.Amhar** | **23DA2-0673** | Member 3 | BST organization and hash-based student-ID search |
+| 4 | **MIFZ.Azzah** | **23DA2-1072** | Member 4 | Campus graph, location/road operations, BFS and DFS |
+| All | All members | — | — | Integration, validation, testing, debugging, documentation, and GitHub collaboration; list only work each member actually performed. |
 
 ## 2. Individual Contributions
 
 The descriptions below map members to project components and functions. Before submission, each member must confirm that their contribution statement matches work they personally completed, tested, reviewed, or demonstrated. Update the descriptions to match the actual merged commits and pull requests; do not claim work another person completed.
 
-### Member 1 — MSF.Rimasa (23DA2-0507)
+### Member 1 — MSF.Rimasa (23DA2-0507) — Group Leader
 
 - **Student model:** `src/Student.java` — stores Student ID, name, programme, and marks; validates non-empty text fields and marks from 0 to 100.
 
@@ -206,16 +209,3 @@ Target final duration: approximately **13 minutes 30 seconds**, and in all cases
 | 06:45–08:45 | MUM.Amhar | Hash-based Student-ID search and BST in-order sorted display; confirm indexes reflect updates/deletions. |
 | 08:45–12:45 | MIFZ.Azzah | Add/remove locations and roads, adjacency-list display, invalid connections, BFS, and DFS. |
 | 12:45–13:30 | MSF.Rimasa and all members (separate short clips) | Run `test.bat` and show the actual results; briefly show the real GitHub commits/branches/merged PRs; each member states their genuine contribution; close the presentation. |
-
-## 10. Group Declaration
-
-**Include the declaration below only after all four members have reviewed it and confirmed it is accurate and allowed by the module's rules. If it is not accurate, revise it before submission.**
-
-> We declare that this project is our own group work for CIT300 Data Structures and Algorithms. Each member can explain and demonstrate their own contribution as listed above.
-
-| Name | Student ID |
-| --- | --- |
-| MSF.Rimasa | 23DA2-0507 |
-| ANT.Ahamed | 23DA2-0514 |
-| MUM.Amhar | 23DA2-0673 |
-| MIFZ.Azzah | 23DA2-1072 |
